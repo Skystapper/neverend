@@ -55,5 +55,5 @@ class Config(object):
     DEF_WATER_MARK_FILE = None
 
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "")
     
