@@ -28,7 +28,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 
 from database.database import db
 from sample_config import Config
-from plugins.database.add import add_user_to_database
+from database.add import add_user_to_database
 from plugins.settings.settings import *
 
 
