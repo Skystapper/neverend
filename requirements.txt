@@ -13,3 +13,4 @@ yt-dlp
 motor
 aiofiles
 pymongo
+dnspython
