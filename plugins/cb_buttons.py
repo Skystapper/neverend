@@ -11,9 +11,8 @@ from translation import Translation
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-import os
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
-from plugins.config import Config
+
 from plugins.dl_button import ddl_call_back
 from plugins.youtube_dl_button import youtube_dl_call_back
 from plugins.settings.settings import OpenSettings
