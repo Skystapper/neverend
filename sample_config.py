@@ -1,5 +1,5 @@
 import os
-
+import logging
 class Config(object):
 
     # get a token from @BotFather
@@ -56,4 +56,4 @@ class Config(object):
 
     # Sql Database url
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
-    
+    LOGGER = logging
