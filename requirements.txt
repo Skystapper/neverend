@@ -12,3 +12,4 @@ tgcrypto
 yt-dlp
 motor
 aiofiles
+pymongo
