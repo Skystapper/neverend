@@ -10,3 +10,5 @@ feedparser
 requests
 tgcrypto
 yt-dlp
+motor
+aiofiles
