@@ -25,7 +25,7 @@ from helper_funcs.help_Nekmo_ffmpeg import generate_screen_shots
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from PIL import Image
-
+from database.database import db
 
 async def youtube_dl_call_back(bot, update):
     cb_data = update.data
