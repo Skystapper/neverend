@@ -20,7 +20,7 @@ else:
     from config import Config
 
 from translation import Translation
-
+from database.database import db
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes, TimeFormatter
