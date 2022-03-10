@@ -14,3 +14,4 @@ motor
 aiofiles
 pymongo
 dnspython
+psutil
