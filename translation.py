@@ -32,14 +32,15 @@ Made by @FayasNoushad
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
 """
+    
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('🗜️ sᴇᴛᴛɪɴɢs', callback_data='OpenSettings')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('❔ ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('👨‍🚒 ᴀʙᴏᴜᴛ', callback_data='about')
+        ],[
+        InlineKeyboardButton('♨️ ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
